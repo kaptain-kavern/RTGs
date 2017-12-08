@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+		<defName>RTG-ASRG</defName>
+		<label>ASRG</label>
+		<description>An Advanced Stirling Radioisotope Generator is surely the way to go when it comes to power generation. Much more efficient than that old RTG you've got stuck in the basement.</description>
+		<descriptionDiscovered>That took a while to figure out. But now that it's done, you've got ASRG's.</descriptionDiscovered>
+		<baseCost>2400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>8</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

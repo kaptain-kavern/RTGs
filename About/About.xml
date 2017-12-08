@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RTGs</name>
+	<author>ItchyFlea</author>
+	<targetVersion>0.18.0</targetVersion>
+	<description>
+	
+This mod adds a new power generator to the game. An RTG (Radioisotope thermoelectric generator). It uses Uranium as part of it's building requirement and produces a steady amount of power at all times. It produces 750w of power.
+Since it is an RTG, it also produces heat. You'll need to keep the room it is in cool otherwise it will cause fires.
+This mod also adds an ASRG (Advanced Stirling radioisotope generator). It requires a heck of a lot of research. It produces 1500w of power.
+
+Special Thanks:
+=============
+Rilamus 			- RTG Texture
+jacob814 			- ASRG Texture
+Aeo 			- A10 Update
+KapTaiN_KaVerN 		- A15 to B18 Update</description>
+</ModMetaData>

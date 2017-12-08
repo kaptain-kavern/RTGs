@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RTG</defName>
+    <label>Radioisotope Thermoelectric Generator</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>RTG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>0.1</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Produces electricity from Uranium. Will slowly heat up rooms it is placed in.</description>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>120</Steel>
+	  <Uranium>50</Uranium>
+	  <Component>2</Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-750</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(30,130,200,0)</glowColor>
+      </li>      
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>7</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+ <ThingDef ParentName="BuildingBase">
+    <defName>ASRG</defName>
+    <label>Advanced Stirling Radioisotope Generator</label>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>ASRG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.5</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>0.1</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Produces electricity using the Stirling cycle. Will slowly heat up rooms it is placed in.</description>
+    <size>(3,3)</size>
+    <costList>
+      <Steel>240</Steel>
+	  <Uranium>60</Uranium>
+	  <Component>3</Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(5,240,250,0)</glowColor>
+      </li>      
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>14</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>RTG-ASRG</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>
