@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Rimworld-B18-0E4A9B.svg?style=flat-square)](https://ludeon.com/forums/index.php?topic=25325) <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+[![Version](https://img.shields.io/badge/Rimworld-B18-0E4A9B.svg?style=for-the-badge)](https://ludeon.com/forums/index.php?topic=25325) <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://forthebadge.com/images/badges/cc-nc-sa.svg" /></a> 
 # RTGs
 
 <p align="center"><img src="https://i.imgur.com/Ae9Wmbg.png" /></p>
